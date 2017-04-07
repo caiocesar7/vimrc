@@ -8,7 +8,9 @@ set visualbell		" Use visual bell (no beeping)
 set hlsearch		" Highlight all search results
 set smartcase		" Enable smart-case search
 set autoindent		" Auto-indent new lines
-set mouse=a		" Use mouse
+set mouse=a
+set shiftwidth=1	" Number of auto-indent spaces
+set softtabstop=2	" Number of spaces per Tab
 
 set nocompatible	" Use Vim defaults (much better!)
 set bs=indent,eol,start		" allow backspacing over everything in insert mode
@@ -71,6 +73,7 @@ endif
 " http://www.linuxpowertop.org/known.php
 let &guicursor = &guicursor . ",a:blinkon0"
 
+execute pathogen#infect()
 
 "------------------------
 " Syntax: highlighting
