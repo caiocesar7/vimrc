@@ -10,10 +10,10 @@ set smartcase		" Enable smart-case search
 set autoindent		" Auto-indent new lines
 set mouse=a
 set shiftwidth=1	" Number of auto-indent spaces
-set softtabstop=2	" Number of spaces per Tab
+set softtabstop=3	" Number of spaces per Tab
 
 set nocompatible	" Use Vim defaults (much better!)
-set bs=indent,eol,start		" allow backspacing over everything in insert mode
+set bs=indent,eol,start	" allow backspacing over everything in insert mode
 "set ai			" always set autoindenting on
 "set backup		" keep a backup file
 set viminfo='20,\"50	" read/write a .viminfo file, don't store more
