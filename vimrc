@@ -11,6 +11,7 @@ set autoindent		" Auto-indent new lines
 set mouse=a
 set shiftwidth=1	" Number of auto-indent spaces
 set softtabstop=3	" Number of spaces per Tab
+set nowrap		" Do not break line
 
 set nocompatible	" Use Vim defaults (much better!)
 set bs=indent,eol,start	" allow backspacing over everything in insert mode
